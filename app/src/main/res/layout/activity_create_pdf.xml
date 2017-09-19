@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical">
+
+    <!-- ActionBar -->
+    <LinearLayout
+        android:id="@+id/action"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/color_head"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/back"
+            style="@style/Toolbar_ImageView" />
+
+        <TextView
+            style="@style/Toolbar_Title"
+            android:layout_weight="1"
+            android:text="图片生成PDF" />
+
+        <TextView
+            android:id="@+id/function"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="生成"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/actionbar_menu_text_size" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_below="@id/action"
+        android:id="@+id/contentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

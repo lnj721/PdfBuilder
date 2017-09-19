@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorTranslucency">#55ffffff</color>
+
+    <!--规范颜色 开始 -->
+    <color name="theme_red">#F74555</color>
+    <color name="theme_orange">#FD8900</color>
+    <color name="theme_blue">#00A0E9</color>
+    <color name="theme_green">#00AE84</color>
+
+    <!-- 主题色 -->
+    <color name="color_primary">#418ad3</color>
+    <!-- 头颜色 -->
+    <color name="color_head">#113355</color>
+    <!-- 背景色 -->
+    <color name="color_bg">#E6EAF0</color>
+    <!-- 分割色 -->
+    <color name="color_divider">#D9D9D9</color>
+    <!-- 提示色 -->
+    <color name="color_warning">@color/theme_orange</color>
+
+    <!-- 字体颜色 标题色 -->
+    <color name="text_primary">#113355</color>
+    <!-- 字体颜色 文本色 -->
+    <color name="text_second">#78889f</color>
+    <!-- 字体颜色 辅助色 -->
+    <color name="text_third">#CCCCCC</color>
+    <!-- 字体颜色 输入提示色 -->
+    <color name="text_hint">#D9D9D9</color>
+    <!-- 字体颜色 橙 -->
+    <color name="text_orange">@color/theme_orange</color>
+    <!-- 字体颜色 绿 -->
+    <color name="text_green">@color/theme_green</color>
+    <!-- 字体颜色 灰 按钮不可点击 新规范中改为纯白-->
+    <color name="text_second_disable">@android:color/white</color>
+    <!-- 字体颜色 超链接色 -->
+    <color name="text_link">@color/color_primary</color>
+
+    <!-- 按钮颜色 默认色 -->
+    <color name="btn_normal">#418ad3</color>
+    <!-- 按钮颜色 点击状态 -->
+    <color name="btn_pressed">#529EEA</color>
+    <!-- 按钮颜色 不可点击状态 -->
+    <color name="btn_disabled">#CCCCCC</color>
+    <!--规范颜色 结束 -->
+
+    <!--sidebar-->
+    <color name="sidebar_text_light_color">#aa9b9b9b</color>
+    <color name="sidebar_text_color">#888888</color>
+
+    <color name="patten_gray">@color/text_second</color>
+    <color name="patten_red">@color/theme_red</color>
+    <color name="patten_hint">#737e92</color>
+    <color name="patten_text">#495877</color>
+
+    <color name="pwd_divider_color">#d2d2d2</color>
+    <color name="pwd_point_color">#666666</color>
+    <color name="pwd_press_color">#d2d2d2</color>
+
+    <color name="timeline_done">#53bdfe</color>
+    <color name="timeline_wait">#ddd</color>
+
+    <color name="tab_menu_color">#999999</color>
+    <color name="msg_point_color">#ff6e40</color>
+    <color name="status_circle_gray">#d9d9d9</color>
+    <color name="status_circle_blue">#00ccff</color>
+    <color name="dark_gray">#a9e6eaf0</color>
+    <color name="light_gray">#59e6eaf0</color>
+    <color name="tag_disable">#999999</color>
+    <color name="theme_red_click">#FD5F6D</color>
+
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+    <!--合同列表、个人信息标题-->
+    <dimen name="title_text_size">15sp</dimen>
+    <!--最小字号，"收"、"发"标签文字字号;我的界面菜单文字字号-->
+    <dimen name="tag_text_size">12sp</dimen>
+    <dimen name="large_text_size">16sp</dimen>
+    <!--设计规范 end-->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="common_layout_height">45dp</dimen>
+    <dimen name="actionbar_text_size">17sp</dimen>
+    <dimen name="actionbar_menu_text_size">14sp</dimen>
+    <dimen name="divider_height">1px</dimen>
+
+    <dimen name="personal_sign_width">300px</dimen>
+    <dimen name="personal_sign_height">120px</dimen>
+
+    <dimen name="pop_width">106dp</dimen>
+    <dimen name="pop_height">37dp</dimen>
+    <dimen name="side_bar_textsize">11sp</dimen>
+    <dimen name="common_text_size_14">14sp</dimen>
+    <dimen name="common_list_divider_margin_left">15dp</dimen>
+    <dimen name="common_list_icon_margin_left">15dp</dimen>
+    <dimen name="size_default_height">295dp</dimen>
+
+    <dimen name="home_nav_height">174dp</dimen>
+    <dimen name="mine_nav_height">174dp</dimen>
+    <dimen name="tab_divider_line_height">27dp</dimen>
+    <dimen name="dp_1.5">1.5dp</dimen>
+
+    <dimen name="status_bar_height">20dp</dimen>
+    <dimen name="company_menu_height">115dp</dimen>
+    <dimen name="main_tab_height">46dp</dimen>
+    <dimen name="authorization_base_title_padding_bottom">10dp</dimen>
+    <dimen name="authorization_base_title_padding_top">16dp</dimen>
+    <dimen name="authorization_container_padding_bottom">84dp</dimen>
+    <dimen name="company_seal_size">120dp</dimen>
+
+    <dimen name="red_point">6dp</dimen>
+
+    <dimen name="fab_size_normal">48dp</dimen>
+    <dimen name="fab_size_mini">38dp</dimen>
+    <dimen name="labels_text_size">10sp</dimen>
+
+</resources>

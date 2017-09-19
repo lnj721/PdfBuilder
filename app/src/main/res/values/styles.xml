@@ -1,0 +1,75 @@
+<resources>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarSize">45dp</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/color_primary</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="actionBarStyle">@style/Custom.Actionbar</item>
+        <!--toolbar的home图标的颜色-->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!--toolbar中使用的menu的字体风格-->
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionMenuTextAppearance">@style/ToolbarMenuText</item>
+    </style>
+
+    <style name="Custom.Actionbar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/Custom.TextAppearance.Actionbar</item>
+        <item name="background">@color/color_head</item>
+    </style>
+
+    <style name="Custom.TextAppearance.Actionbar" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseTheme" />
+
+    <style name="AppTheme.FullScreen">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- toolbar标题文字尺寸 -->
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/actionbar_text_size</item>
+    </style>
+
+    <!-- toolbar菜单文字尺寸 -->
+    <style name="ToolbarMenuText" parent="@style/TextAppearance.AppCompat.Menu">
+        <item name="android:textSize">@dimen/actionbar_menu_text_size</item>
+    </style>
+
+    <style name="Toolbar_ImageView">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:src">@mipmap/icon_back</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:background">?selectableItemBackground</item>
+    </style>
+
+    <style name="Toolbar_Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/actionbar_text_size</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+</resources>
