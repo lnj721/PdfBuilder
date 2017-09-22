@@ -15,3 +15,6 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+# itext
+-dontwarn com.itextpdf.**
+-keep class com.itextpdf.** {*;}
