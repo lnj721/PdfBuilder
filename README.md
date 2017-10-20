@@ -10,8 +10,7 @@ Android端使用图片生成PDF文件
 在众多Java语言编写的PDf库中，对Android有支持且有一定用户量的的有：iText、Qoppa qPDF工具包、PDFJet。
 
 ### 2.2 三个库的对比如下：
-
-  | iText | Qoppa|PDFJet
+~ | iText | Qoppa|PDFJet
 ----|------|----|----
 应用文件大小|	1.52MB|	0.93MB|	0.67MB
 时间消耗|	3.7ms|	39ms|	51.3ms
