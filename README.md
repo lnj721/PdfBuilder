@@ -3,6 +3,10 @@ Android端使用图片生成PDF文件
 
 ## 一、应用场景
 从本地选择图片生成pdf文件，由于Android本身并没有对pdf的支持，这里选择使用一个第三方的库来达成需求。
+![image](https://raw.githubusercontent.com/zhufeng1222/Image/master/pdf/1.jpg)
+![image](https://raw.githubusercontent.com/zhufeng1222/Image/master/pdf/2.jpg)
+![image](https://raw.githubusercontent.com/zhufeng1222/Image/master/pdf/3.jpg)
+![image](https://raw.githubusercontent.com/zhufeng1222/Image/master/pdf/4.png)
 
 ## 二、库的选择
 
