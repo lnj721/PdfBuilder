@@ -1,6 +1,5 @@
 package com.rajesh.pdfdemo.util;
 
-import android.Manifest;
 import android.app.Activity;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -36,7 +35,7 @@ public class PermissionUtils {
         return result;
     }
 
-    public static void requestPermission(Activity activity, String permission){
+    public static void requestPermission(Activity activity, String permission) {
         ActivityCompat.requestPermissions(
                 activity,
                 new String[]{permission},
