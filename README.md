@@ -6,7 +6,7 @@ Android端使用图片生成PDF文件
 ![image](https://raw.githubusercontent.com/zhufeng1222/Image/master/pdf/1.jpg)
 ![image](https://raw.githubusercontent.com/zhufeng1222/Image/master/pdf/2.jpg)
 ![image](https://raw.githubusercontent.com/zhufeng1222/Image/master/pdf/3.jpg)
-![image](https://raw.githubusercontent.com/zhufeng1222/Image/master/pdf/4.png)
+![image](https://raw.githubusercontent.com/zhufeng1222/Image/master/pdf/4.jpg)
 
 ## 二、库的选择
 
